@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бизнес компания</title>
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!--Шапка сайта-->
+	<!--Шапка сайта-->
+<header class="header">
+	<h1 class="title-hidden">Сайт Бизнес компании</h1>
+	<!--Логотип, телефон, график работы-->
+	<div class="contacts header__contacts">
+		<h2 class="title-hidden">Контактная информация</h2>
+		<div class="container">
+			<!--Логотип-->
+			<a href="#" class="logo contacts__logo">
+				<img src="img/logo.png" alt="Логотип фирмы" class="logo__image">
+			</a>
+			<!--Телефон и график работы-->
+			<div class="connection header__connection">
+				<h3 class="connection__title">Нужна помощь?</h3>
+				<a href="tel:+79876543210" class="connection__telephone">
+					<span class="connection__telephone--down">8</span><span class="connection__telephone--up">987</span><span class="connection__telephone--down">654</span><span class="connection__telephone--up">32</span><span class="connection__telephone--down">10</span>
+				</a>
+				<p class="connection__schedule"><b>График работы:</b> пн-пт / 9:00 - 18:00</p>
+			</div>
+		</div>
+	</div>
+	
+	<!--Меню-->
+	<nav class="menu header__menu">
+		<div class="container">
+			<div class="menu__hamburger"><span></span></div>
+			<ul class="menu__list">
+				<li class="menu__item"><a class="menu__link menu__link--active">Домашняя</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+			</ul>
+		</div>
+		<div class="menu__bl"></div>
+	</nav>
+</header>
+
+    <!--Главная часть-->
+    <main class="main">
+		<!--Преимущества-->
+		<!--Преимущества-->
+<section class="advantages">
+	<h2 class="title-hidden">Наши преимущества</h2>
+	<!--Слайдер-->
+	<div class="container">
+		<div class="image-slider swiper-container advantages__image-slider">
+			<ul class="image-slider__wrapper swiper-wrapper">
+				<li class="image-slider__slide swiper-slide">
+					<a href="#" class="image-slider__text image-slider__text-success">
+						<h3 class="image-slider__title">Успех</h3>
+						<div class="image-slider__text-wrapper">
+							<p class="image-slider__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="image-slider__description-arrow">></p>
+						</div>
+					</a>
+					<div class="image-slider__image">
+						<picture>
+							<source 
+								media="(max-width: 575px)"
+								srcset="img/slide_success-mobile@2x.webp 2x,
+										img/slide_success-mobile.webp 1x" 
+								type="image/webp">
+								
+							<source 
+								media="(max-width: 575px)"
+								srcset="img/slide_success-mobile.jpg 2x,
+										img/slide_success-mobile.jpg 1x" 
+								type="image/jpeg">    
+
+							<source
+							srcset="img/slide_success@2x.webp 2x,
+										img/slide_success.webp 1x" 
+								type="image/webp">
+								
+							<source 
+								srcset="img/slide_success@2x.jpg 2x,
+										img/slide_success.jpg 1x" 
+								type="image/jpeg">    
+							<img src="img/slide_success.jpg" alt="Успех">
+						</picture>
+						
+					</div>						
+				</li>
+					
+				<li class="image-slider__slide swiper-slide">
+					<a href="#" class="image-slider__text image-slider__text-quality">
+						<h3 class="image-slider__title">Качество</h3>
+						<div class="image-slider__text-wrapper">
+							<p class="image-slider__description">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							<p class="image-slider__description-arrow">></p>
+						</div>
+					</a>
+					<div class="image-slider__image">
+						<picture>
+							<source 
+								media="(max-width: 575px)"
+								srcset="img/slide_quality-mobile@2x.webp 2x,
+										img/slide_quality-mobile.webp 1x" 
+								type="image/webp">
+								
+							<source 
+								media="(max-width: 575px)"
+								srcset="img/slide_quality-mobile.jpg 2x,
+										img/slide_quality-mobile.jpg 1x" 
+								type="image/jpeg">    
+
+							<source
+							srcset="img/slide_quality@2x.webp 2x,
+										img/slide_quality.webp 1x" 
+								type="image/webp">
+								
+							<source 
+								srcset="img/slide_quality@2x.jpg 2x,
+										img/slide_quality.jpg 1x" 
+								type="image/jpeg">    
+							<img src="img/slide_quality.jpg" alt="Качество">
+						</picture>
+					</div>
+				</li>
+
+				<li class="image-slider__slide swiper-slide">
+					<a href="#" class="image-slider__text image-slider__text-solutions">
+						<h3 class="image-slider__title">Решения</h3>
+						<div class="image-slider__text-wrapper">
+							<p class="image-slider__description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+							<p class="image-slider__description-arrow">></p>
+						</div>
+					</a>					
+					<div class="image-slider__image">
+						<picture>
+							<source 
+								media="(max-width: 575px)"
+								srcset="img/slide_solutions-mobile@2x.webp 2x,
+										img/slide_solutions-mobile.webp 1x" 
+								type="image/webp">
+								
+							<source 
+								media="(max-width: 575px)"
+								srcset="img/slide_solutions-mobile.jpg 2x,
+										img/slide_solutions-mobile.jpg 1x" 
+								type="image/jpeg">    
+
+							<source
+							srcset="img/slide_solutions@2x.webp 2x,
+										img/slide_solutions.webp 1x" 
+								type="image/webp">
+								
+							<source 
+								srcset="img/slide_solutions@2x.jpg 2x,
+										img/slide_solutions.jpg 1x" 
+								type="image/jpeg">    
+							<img src="img/slide_solutions.jpg" alt="Решения">
+						</picture>
+					</div>
+				</li>
+			</ul>
+
+			<div class="swiper-pagination"></div>
+		</div>
+	
+		<!--Блоки-->		
+		<div class="blocks advantages__blocks">
+			<ul class="blocks__list">
+				<li class="blocks__item blocks__item-services">
+					<a href="#" class="blocks__link">								
+						<div class="blocks__text">
+							<h3 class="blocks__text-title">Услуги</h3>
+							<div class="blocks__text-wrapper">
+								<p class="blocks__text-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+								<p class="blocks__text-arrow">></p>
+							</div>
+						</div>
+					</a>
+				</li>
+					
+				<li class="blocks__item blocks__item-solutions">
+					<a href="#" class="blocks__link">							
+						<div class="blocks__text blocks__text-solutions">
+							<h3 class="blocks__text-title">Глобальные решения</h3>
+							<div class="blocks__text-wrapper">
+								<p class="blocks__text-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+								<p class="blocks__text-arrow">></p>
+							</div>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<ul class="blocks__list">
+				<li class="blocks__item blocks__item-expertise">
+					<a href="#" class="blocks__link">							
+						<div class="blocks__text blocks__text-expertise">
+							<h3 class="blocks__text-title">Экспертиза</h3>
+							<div class="blocks__text-wrapper">
+								<p class="blocks__text-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+								<p class="blocks__text-arrow">></p>
+							</div>
+						</div>
+					</a>
+				</li>
+						
+				<li class="blocks__item blocks__item-resources">
+					<a href="#" class="blocks__link">
+						<div class="blocks__text blocks__text-resources">
+							<h3 class="blocks__text-title">Ресурсы</h3>
+							<div class="blocks__text-wrapper">
+								<p class="blocks__text-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+								<p class="blocks__text-arrow blocks__text-arrow-resources">></p>
+							</div>
+						</div>
+					</a>
+				</li>
+						
+				<li class="blocks__item blocks__item-research">
+					<a href="#" class="blocks__link">
+						<div class="blocks__text">
+							<h3 class="blocks__text-title">Исследование</h3>
+							<div class="blocks__text-wrapper">
+								<p class="blocks__text-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+								<p class="blocks__text-arrow">></p>
+							</div>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>
+        
+		<!--Обращение-->
+		<!--Добро пожаловать-->
+<section class="appeal">
+	<div class="container">
+		<h2 class="appeal__title">Добро пожаловать в нашу компанию!</h2>
+		<div class="appeal__wrapper">
+			<p class="appeal__text-begin">
+				Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</p>
+			<p class="appeal__text-end">
+				Candidatus noster zirbus est. Nunquam quaestio finis. Sunt tumultumquees fallere festus, magnum buxumes. Grandis diatria patienter examinares urbs est. Vox de talis messor, contactus species! Bursas sunt silvas de neuter hydra. Albus mortem sed mire anhelares lumen est. Cur lixa accelerare? Hercle, indictio superbus!. Nixuss tolerare, tanquam castus canis. Fidelis abactors ducunt ad pes. Adiurators sunt fugas de emeritis aonides. Vae, bassus calceus! Urbs de audax hibrida, prensionem ventus! Est alter burgus, cesaris. Sunt classises demitto bassus, dexter lactaes. Brabeutas favere! Cur elevatus potus? Monss sunt homos de noster cedrium.
+				<a href="#" class="appeal__link">></a>
+			</p>
+		</div>
+	</div>
+</section>
+		
+		<!--Услуги-->
+		<!--Услуги-->
+<section class="services">
+	<div class="container">
+		<h2 class="services__title"><b>Наши</b> услуги</h2>
+		<div class="services__wrapper">
+			<ul class="services__list">
+				<li class="services__item">
+					<a href="#" class="services__link">
+						<p class="services__text">Консалтинг</p>
+						<p class="services__arrow">></p>
+					</a>
+				</li>
+				
+				<li class="services__item">
+					<a href="#" class="services__link">
+						<p class="services__text">Бизнес планирование</p>
+						<p class="services__arrow">></p>
+					</a>
+				</li>
+				
+				<li class="services__item">
+					<a href="#" class="services__link">
+						<p class="services__text">Маркетинговая стратегия</p>
+						<p class="services__arrow">></p>
+					</a>
+				</li>
+				
+				<li class="services__item">
+					<a href="#" class="services__link">
+						<p class="services__text">Бухгалтерия</p>
+						<p class="services__arrow">></p>
+					</a>
+				</li>
+			</ul>
+
+			<div class="services__image"></div>
+		</div>
+	</div>
+</section>
+		
+		<!--Слоган-->
+		<!--Слоган-->
+<section class="tagline">
+	<div class="container">
+		<h2 class="tagline__title">Береги время,<br>Береги деньги,<br>Рост и успех</h2>
+		<p class="tagline__description">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		<a href="#" class="tagline__link">Узнать <span class="tagline__link-arrow">></span></a>
+	</div>
+</section>
+		
+		<!--Клиенты-->
+		<!--Клиенты-->
+<section class="clients">
+	<h2 class="title-hidden">Наши клиенты</h2>
+	<div class="container">
+		<ul class="clients__list">
+			<li class="clients__item"><a href="#" class="clients__link clients-1"></a></li>
+			
+			<li class="clients__item"><a href="#" class="clients__link clients-2"></a></li>
+			
+			<li class="clients__item"><a href="#" class="clients__link clients-3"></a></li>
+					
+			<li class="clients__item"><a href="#" class="clients__link clients-4"></a></li>
+				
+			<li class="clients__item"><a href="#" class="clients__link clients-5"></a></li>
+				
+			<li class="clients__item"><a href="#" class="clients__link clients-6"></a></li>
+					
+			<li class="clients__item"><a href="#" class="clients__link clients-7"></a></li>
+					
+			<li class="clients__item"><a href="#" class="clients__link clients-8"></a></li>
+		</ul>
+	</div>
+</section>
+    </main>
+
+    <!--Подвал сайта-->
+    <!--Подвал-->
+<footer class="footer">
+    <h2 class="title-hidden">Наш адрес</h2>
+    <div class="container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241898.1799797206!2d37.505002767896876!3d55.71682260199979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCw!5e0!3m2!1sru!2sru!4v1606127950017!5m2!1sru!2sru" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="footer__map"></iframe>
+    </div>
+</footer>
+	
+	<!--Скрипты-->
+	<script src="js/js.min.js"></script>
+
+</body>
+</html>
