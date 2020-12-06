@@ -1492,6 +1492,9 @@ body.lock {
 }
 
 .image-slider__image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
 }
 
@@ -2180,6 +2183,11 @@ body.lock {
 
   .menu__link {
     background-color: rgba(253, 253, 255, 0.8);
+  }
+
+  .menu__link--active {
+    color: #fff;
+    background-color: #052d5e;
   }
 
   .image-slider__wrapper {
